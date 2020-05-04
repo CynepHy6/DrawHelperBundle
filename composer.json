@@ -22,12 +22,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Cynephy6\\DrawHelperBundle\\": "/"
+      "Cynephy6\\DrawHelperBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Cynephy6\\DrawHelperBundle\\Tests\\": "Cynephy6/DrawHelperBundle/Tests/"
+      "Cynephy6\\DrawHelperBundle\\Tests\\": "src/Tests/"
     }
   },
   "extra": {
