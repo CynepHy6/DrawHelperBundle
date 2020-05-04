@@ -1,0 +1,32 @@
+{
+  "name": "cynephy6/draw-helper-bundle",
+  "description": "draw image helper",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "cynephy6",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "ext-gd": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cynephy6\\DrawHelperBundle\\": "/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Cynephy6\\DrawHelperBundle\\Tests\\": "Tests/"
+    }
+  },
+  "extra": {
+    "symfony": {
+      "allow-contrib": false,
+      "require": "5.0.*"
+    }
+  }
+}
