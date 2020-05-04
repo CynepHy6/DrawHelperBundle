@@ -15,6 +15,11 @@
     "php": "^7.3",
     "ext-gd": "*"
   },
+  "require-dev": {
+  },
+  "config": {
+    "sort-packages": true
+  },
   "autoload": {
     "psr-4": {
       "Cynephy6\\DrawHelperBundle\\": "/"
@@ -22,7 +27,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Cynephy6\\DrawHelperBundle\\Tests\\": "Tests/"
+      "Cynephy6\\DrawHelperBundle\\Tests\\": "Cynephy6/DrawHelperBundle/Tests/"
     }
   },
   "extra": {
